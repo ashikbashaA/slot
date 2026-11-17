@@ -27,9 +27,113 @@ Add your course schedule using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<html>
+    <head>
+        <title>CLASS TIME TABLE</title>
+    </head>
+    <body>
+        <center>
+            <img src="logo.png" width="500" height="50">
+            <h1><i>CLASS TIME TABLE-ASHIK BASHA</i><b>26018692</b></h1>
+        <table border="1" cellpadding="10" cellspacing="2" bgcolor="lightgreen">
+            <tr bgcolor="green">
+                <th><i>day/time</i></th>
+                <th><i>monday</i></th>
+                <th><i>tuesday</i></th>
+                <th><i>wednesday</i></th>
+                <th><i>thursday</i></th>
+                <th><i>friday</i></th>
+                <th><i>saturday</i></th>
+            </tr>
+            <tr>
+                <td bgcolor="green"><b>8-9.30</b></td>
+                <td align="center">SE</td>
+                <td >FREE SLOT</td>
+                <td align="center">FWAD</td>
+                <td align="center">CA</td>
+                <td align="center">SNM</td>
+                <td>FREE SLOT</td>
+            </tr>
+            <tr>
+                <td bgcolor="green"><b>9.45-11.14</b></td>
+                <td align="center">FWAD</td>
+                <td align="center">CA</td>
+                <td >FREE SLOT</td>
+                <td align="center">SE</td>
+                <td >FREE SLOT</td>
+                <td align="center">SNM</td>
+            </tr>
+            <tr>
+                <td bgcolor="green"><b>11.14-1.14</b></td>
+                <td colspan="6" align="center">LUNCH BREAK</td>
+            </tr>
+            <tr>
+                <td bgcolor="green"><b>1.15-2.44</b></td>
+                <td >FREE SLOT</td>
+                <td align="center">FWAD</td>
+                <td >FREE SLOT</td>
+                <td align="center">JLN5B</td>
+                <td >FREE SLOT</td>
+                <td align="center">JLN5B</td>
+            </tr>
+            <tr>
+                <td bgcolor="green"><b>3.00-4.30</b></td>
+                <td>FREE SLOT</td>
+                <td >FREE SLOT</td>
+                <td align="center">PYTHON</td>
+                <td >FREE SLOT</td>
+                <td align="center">PYTHON</td>
+                <td align="center">PYTHON</td>
+            </tr>
+        </table><br>
+        <table border="1" cellpadding="10" cellspacing="2">
+            <tr>
+                <th><i>S.No.</i></th>
+                <th><i>Subject code</i></th>
+                <th><i>Subject name</i></th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>19CS408</td>
+                <td>Software Engineering(SE)</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>19AI1414</td>
+                <td>Fundamentals of Web Application Development(FWAD)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>19CS305</td>
+                <td>Computer Architecture(CA)</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>19AI301</td>
+                <td>PYTHON</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>19GE624</td>
+                <td>Japanese Language N5 Basic(JLN5B)</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>19MA211</td>
+                <td>Statistics and Numerical Methods(SNM)</td>
+            </tr>
+        </table>
+        </center>
+    </body>
 
+
+</html>
+
+```
 
 ## OUTPUT
+![alt text](<Screenshot 2026-11-17 203048.png>)
 
 
 ## RESULT
